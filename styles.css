@@ -1,15 +1,40 @@
-body {
-    font-family: "Open Sans", sans-serif;
-    margin: 20px;
+.hero {
+    width: 100vw;
+    height: 400px;
+    background-image: url(./hero.jpg);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
 }
 
-h1 {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
+.hero nav {
+    align-self: flex-end;
 }
+
+nav a {
+    text-decoration: none;
+    color: rgb(243, 219, 7);
+    margin-right: 20px;
+    padding: 5px;
+    background-color: black;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+}
+
+main {
+    margin: 30px;
+}
+
+.hero h1 {
+    background-color: black;
+    color: rgb(243, 219, 7);
+    align-self: center;
+    margin-top: 170px;
+    }
 
 h2 {
     margin: 30px 0;
