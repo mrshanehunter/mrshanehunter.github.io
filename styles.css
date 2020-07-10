@@ -50,6 +50,7 @@ h2 {
 
 
 /*div.interestDIV*/.interests {
+       
           height: 200px; 
           width: 600px;
           background-color: rgba(143, 143, 143, 0.8);
@@ -59,6 +60,10 @@ h2 {
           margin-bottom: 75px;
  }
  
+ .interests a{
+        margin-left: 5px;
+        margin-right: 5px;
+ }
  /*div.bookDIV*/.books { 
            height: 350px; 
            width: 600px;
