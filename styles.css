@@ -5,7 +5,7 @@
     justify-content: flex-end;
     align-items: center;
     color: #f1f2f2;
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin-top: 50px;
     padding: 10px;
     background-color: #58595b;
@@ -100,12 +100,12 @@ h2 {
  } 
  footer {
     display: flex;
-    height: 175px;
+    height: 100px;
     width: 100%;
     margin-top: 50px;
     background-color: rgb(39, 38, 38);
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: rgb(220, 218, 218);
     }
