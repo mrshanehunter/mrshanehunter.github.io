@@ -61,8 +61,11 @@ h2 {
  }
  
  .interests a{
-        margin-left: 5px;
+        display: inline-flex;
+        justify-content: center;
+        margin-left: 12px;
         margin-right: 5px;
+        padding-left: 2px;
  }
  /*div.bookDIV*/.books { 
            height: 350px; 
@@ -98,11 +101,21 @@ h2 {
  /*div.sitesDIV*/.sites {
             height: 200px; 
             width: 600px;
+            background-color: rgba(143, 143, 143, 0.8);
             border: 10px solid rgb(39, 37, 37);
             border-radius: 25px;
             box-shadow: 10px 10px 10px rgb(82, 81, 81);
-            background-color: rgba(143, 143, 143, .8);
- } 
+  }
+
+.sites a {
+    display: inline-flex; 
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 5px;
+}            
+ 
+ 
+    
  footer {
     display: flex;
     height: 100px;
