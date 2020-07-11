@@ -2,9 +2,8 @@
 
 .menu nav {
     display: flex;
-    height: 100%;
-    margin-top: 1%;
-    padding: 0.75%;
+    height: 50px;
+    margin-top: 15px;
     background-color: rgba(39, 38, 38, .8);
     justify-content: flex-end;
     align-items: center;
@@ -12,8 +11,8 @@
          
 }
 nav a {
-     margin-left: 2%;
-     margin-right: 2%;
+     margin-left: 20px;
+     margin-right: 10px;
      color: #f1f2f2;
  }
 
@@ -25,125 +24,107 @@ body {
     background-attachment: fixed;
     font-family: "Open Sans", sans-serif;
     margin: 0px;
-  }
-
-.homepagespace {
-    min-height: 100vmin;
 }
 
+main {
+    margin: 20px;
+}
 
-/*.menu h1 {
+.menu h1 {
     display: flex;
     background-color: rgba(143, 143, 143, .8);
     font-size: 2em;
     color: rgb(39, 38, 38);
     justify-content: center;
     align-items: center;
-    margin-top: 0.5%;
-    margin-bottom: 5%;
-    height: 100%;
-    padding: 0.75%;
+    margin-top: 5px;
+    margin-bottom: 75px;
+    height: 100px;
     box-shadow: 10px 5px 5px rgb(39, 38, 38);
     }
-*/
+
 h2 {
-    margin-left: 5%;
-    margin-top: 1.75%;
-    margin-bottom: 0.05%;
-        }
-
-main {
-    margin: 20px;
-    }
-
-.container {
-    display: flex;
-    flex-direction: column;
-    }
-
-/*img {
-    max-width: 15%;
-    margin: 2%;
-   }*/
+    margin: 10px 10px;
+    padding: 5px;
+}
 
 
-.interests {
+/*div.interestDIV*/.interests {
        
-          flex-direction: column;
-          max-width: 25%;
+          height: 200px; 
+          width: 600px;
           background-color: rgba(143, 143, 143, 0.8);
-          border: 2px solid rgb(39, 37, 37);
+          border: 5px solid rgb(39, 37, 37);
           border-radius: 25px;
           box-shadow: 10px 10px 10px rgb(82, 81, 81);
-          margin-bottom: 5%;
-}
-.interests > a > img {
-    max-width: 60%;
-    margin: 5%;
-    padding-left: 12%;
-   }
+          margin-bottom: 75px;
+ }
  
- .books { 
-           flex-direction: column;
-           max-width: 25%;
+ .interests a{
+        display: inline-flex;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 5px;
+        
+ }
+ /*div.bookDIV*/.books { 
+           height: 350px; 
+           width: 600px;
            background-color: rgba(143, 143, 143, 0.8);
-           border: 2px solid rgb(39,37,37);
+           border: 5px solid rgb(39,37,37);
            border-radius: 25px;
            box-shadow: 10px 10px 10px rgb(82, 81, 81);
-           margin-bottom: 5%;
+           margin-bottom: 75px;
  }
 
- .books > a > img {
-    max-width: 50%;
-    margin-top: 15%;
-    margin-left: 2.5%;
-    margin-right: 2.5;
-    padding-left: 17.5%;
+ .books a {
+     display: inline-flex;
+     margin-left: 20px;
+     margin-right: 10px;
+
  }
 
-
- .tvshows {
-           flex-direction: column; 
-           width: 25%;
+ /*div.tvDIV*/.tvshows {
+           height: 350px; 
+           width: 600px;
            background-color: rgba(143, 143, 143, 0.8);
-           border: 2px solid rgb(39,37,37);
+           border: 5px solid rgb(39,37,37);
            border-radius: 25px;
            box-shadow: 10px 10px 10px rgb(82, 81, 81);
-           margin-bottom: 5%;
+           margin-bottom: 75px;
  }
-.tvshows > a > img {
-    margin-top: 15%;
-    margin-left: 2.5%;
-    margin-right: 2.5;
-    padding-left: 17.5%;;
+.tvshows a {
+    display: inline-flex;
+    margin-left: 15px;
+    margin-right: 10px;
 }
-.sites {
-            flex-direction: column;  
-            width: 25%;
+ /*div.sitesDIV*/.sites {
+            height: 200px; 
+            width: 600px;
             background-color: rgba(143, 143, 143, 0.8);
-            border: 2px solid rgb(39, 37, 37);
+            border: 5px solid rgb(39, 37, 37);
             border-radius: 25px;
             box-shadow: 10px 10px 10px rgb(82, 81, 81);
-            margin-bottom: 5%;
   }
 
-.sites > a > img {
-    max-width: 60%;
-    margin: 15%;
-    padding-left: 5%;
+.sites a {
+    display: inline-flex; 
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 5px;
 }            
  
  
     
  footer {
     display: flex;
-    height: 150%;
+    height: 70px;
     width: 100%;
+    margin-top: 75px;
     background-color: rgba(39, 38, 38, .8);
     justify-content: center;
     align-items: center;
-    font-size: 1em;
-    padding: 2%;
+    font-size: .75em;
     color: rgb(220, 218, 218);
     border-radius: 15px 0px;
     }
