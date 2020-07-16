@@ -3,12 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!--    <link rel="stylesheet" href="./styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    -->
     <title>Shane's Site</title>
 </head>
 
-<body>
+
+<body> 
+    <div class="view" style="background-image: url(hero.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+       
+
+    <header>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed mb-5 py-3">
+
+    <a href="#" class="navbar-brand">shunts</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#interests">interests</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#books">favourite Books</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#shows">favourite Shows</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sites">favourite Sites</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</header>
+
+
+<div class="container-fluid">
+
+    <div class="card border-dark mt-5 ml-5 shadow-lg p-3 mb-5 bg-white rounded" style="width: 48rem;">
+        
+        <div class="card-body">
+          <h5 class="card-title mb-4">interests</h5>
+          <div class="d-flex justify-content-center">
+          <a>
+            <img class="mx-4" height="100" src="ASSETS/MOVIE-01.svg" alt="Movie Icon"/>
+          </a>
+          <a>
+            <img class="mx-4" height="100" src="ASSETS/DESIGN-01.svg" alt="Design Icon"/>
+           </a>
+           <a>
+            <img class="mx-4" height="100" src="ASSETS/COOKING-01.svg" alt="Cooking Icon"/>
+           </a>
+           <a> 
+              <img class="mx-4" height="100" src="ASSETS/BEACH-01.svg" alt="Beach Icon"/>
+           </a>
+           <a>
+           <img class="mx-4" height="100" src="ASSETS/ICECREAM-01.svg" alt="Ice Cream"/>
+           </a>
+           </div>
+        </div>
+      </div>
+
+    <div class="card border-dark mt-5 ml-5 shadow-lg p-3 mb-5 bg-white rounded border" style="width: 48rem;">
+        <div class="card-body">
+        <h5 class="card-title mb-4">favourite books</h5> 
+        <div class="d-flex justify-content-center">   
+        <a href="https://www.amazon.com/s?k=holding+the+man+book&crid=2E1K3ESULDF7O&sprefix=holding+the+man%2Caps%2C374&ref=nb_sb_ss_i_3_15" class="imgB">
+            <img class="mx-5" height="250" src="https://m.media-amazon.com/images/I/91IcSvFKsFL._AC_UY436_FMwebp_QL65_.jpg" alt="">
+        </a>
+
+        <a href="https://www.amazon.com/s?k=488+rules+for+life&ref=nb_sb_noss_2" class="imgB">
+            <img class="mx-5" height="250" src="https://m.media-amazon.com/images/I/71MBggi4qIL._AC_UY436_FMwebp_QL65_.jpg" alt="">
+        </a>
+
+        <a href="https://www.amazon.com/s?k=the+kite+runner+by+khaled+hosseini&crid=2N2X05VC9T6LT&sprefix=the+kite+runner%2Caps%2C380&ref=nb_sb_ss_i_3_15" class="imgB">
+            <img class="mx-5" height="250" src="https://m.media-amazon.com/images/I/81QSukPYvML._AC_UY436_FMwebp_QL65_.jpg" alt="">
+        </a>
+        </div>
+        </div>
+    </div>  
+
+    <div class="card border-dark mt-5 ml-5 shadow-lg p-3 mb-5 bg-white rounded" style="width: 48rem;">
+        <div class="card-body">
+        <h5 class="card-title mb-4">favourite tv shows</h5>  
+        <div class="d-flex justify-content-center"> 
+        <a href="https://www.imdb.com/title/tt3295542/?ref_=fn_al_tt_1" class="img">
+            <img class="mx-5" height="225" src="https://m.media-amazon.com/images/M/MV5BNGZmMDU0MjAtNGJkOC00Nzc1LThiYzItMmU4ZGY3MjBhZTg0XkEyXkFqcGdeQXVyMDM3ODU0Nw@@._V1_UY268_CR177,0,182,268_AL_.jpg" alt="">
+        </a>
+
+        <a href="https://www.imdb.com/title/tt8398600/?ref_=nv_sr_srsg_0" class="img">
+            <img class="mx-5" height="225" src="https://m.media-amazon.com/images/M/MV5BZjdjOWIxMDgtYTgwNS00MjE4LTliZWYtZGI1NDhhZmIyYjM1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
+        </a>
+
+       <a href="https://www.imdb.com/title/tt1759761/?ref_=nv_sr_srsg_0" class="img">
+            <img class="mx-5" height="225" src="https://m.media-amazon.com/images/M/MV5BMjE2NDM0OTEwMl5BMl5BanBnXkFtZTgwNzgwNDI0ODE@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
+        </a>
+        </div>
+        </div>
+    </div>    
+
+
+    <div class="card border-dark mt-5 ml-5 shadow-lg p-3 mb-5 bg-white rounded" style="width: 48rem;">
+        <div class="card-body">
+            <h5 class="card-title mb-4">favourite sites</h5>
+
+            <div class="d-flex justify-content-center">
+            <a href="http://www.netflix.com">
+                <img class="mx-5" height="100" src="ASSETS/NETFLIX-01.svg" alt="Netflix">
+            </a>
+            <a href="http://www.askthetarot.com.au">
+                <img class="mx-5" height="100" src="ASSETS/ATT-01.svg" alt="Ask The Tarot">
+            </a>
+            <a href="http://www.tshirtsonline.com.au"> 
+                <img class="mx-5" height="100" src="ASSETS/TSHIRT-01.svg" alt="T-shirts Online">
+            </a>
+            </div>  
+        </div>
+    </div>
+</div>
+
+
+<!--
+    </nav>
+    </header>
     <section class="menu">
         <nav>
             <a href="#interests">Interests</a>
@@ -63,15 +186,15 @@
   
     <div class="tvshows">
         <h2>Favourite TV Shows</h2>
-          <a href="https://www.imdb.com/title/tt3295542/?ref_=fn_al_tt_1" class="imgT">
+          <a href="https://www.imdb.com/title/tt3295542/?ref_=fn_al_tt_1" class="img">
             <img height="250" src="https://m.media-amazon.com/images/M/MV5BNGZmMDU0MjAtNGJkOC00Nzc1LThiYzItMmU4ZGY3MjBhZTg0XkEyXkFqcGdeQXVyMDM3ODU0Nw@@._V1_UY268_CR177,0,182,268_AL_.jpg" alt="">
         </a>
 
-        <a href="https://www.imdb.com/title/tt8398600/?ref_=nv_sr_srsg_0" class="imgT">
+        <a href="https://www.imdb.com/title/tt8398600/?ref_=nv_sr_srsg_0" class="img">
             <img height="250" src="https://m.media-amazon.com/images/M/MV5BZjdjOWIxMDgtYTgwNS00MjE4LTliZWYtZGI1NDhhZmIyYjM1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
         </a>
 
-       <a href="https://www.imdb.com/title/tt1759761/?ref_=nv_sr_srsg_0" class="imgT">
+       <a href="https://www.imdb.com/title/tt1759761/?ref_=nv_sr_srsg_0" class="img">
             <img height="250" src="https://m.media-amazon.com/images/M/MV5BMjE2NDM0OTEwMl5BMl5BanBnXkFtZTgwNzgwNDI0ODE@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
         </a>
     </div>
@@ -90,10 +213,19 @@
                     <img height="100" src="ASSETS/TSHIRT-01.svg" alt="T-shirts Online">
                 </a>
      </div>   
-
-    <footer>
-        Created with &hearts; in Melbourne by <a href="mailto:shane_hunter@bigpond.com"> Shunts</a> 
+-->
+    <footer class="page-footer bg-dark">
+       <h5 class="text-muted text-center py-3">
+        Created with &hearts; in Melbourne by
+       <a href="mailto:shane_hunter@bigpond.com">Shunts</a>
+      
+    </h5>
     </footer>    
-</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</div>
 </body>
+
 </html>
